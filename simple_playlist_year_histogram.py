@@ -22,10 +22,9 @@ def plotYearHisto(fileName):
         return
 
     x = np.array(years)
-    f, ax = plt.subplots()
-    ax.plot()
-    ax.hist(x, bins=20, color='midnightblue')
-    ax.set_title('Song Year Histogram for %s' % fileName)
+    plt.plot()
+    plt.hist(x, bins=20, color='midnightblue')
+    plt.title('Song Year Histogram for %s' % fileName)
     plt.show()
 
 
