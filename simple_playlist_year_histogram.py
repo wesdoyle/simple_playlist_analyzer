@@ -31,7 +31,7 @@ def plotYearHisto(fileName):
 
 def main():
     descStr = """
-    This program creates a histogram of track year from an XML playlist file
+    This program creates a histogram of track year from an XML playlist files
     exported from iTunes.
     """
     parser = argparse.ArgumentParser(description=descStr)
